@@ -260,7 +260,7 @@ void radixSort(int a[], int n){
                 k=0;
             else
                 k=(a[j]/i)%10;
-                Q[k].push(a[j]);            
+            Q[k].push(a[j]);            
         }
         //모으기
         int idx = 0;
